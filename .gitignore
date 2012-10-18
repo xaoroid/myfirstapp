@@ -3,6 +3,7 @@
 !.gitiginore
 !/src
 !/res
+!AndroidManifest.xml
 
 *.class
 
