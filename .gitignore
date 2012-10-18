@@ -1,3 +1,9 @@
+/*
+
+!.gitiginore
+!/src
+!/res
+
 *.class
 
 # Package Files #
