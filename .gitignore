@@ -1,0 +1,10 @@
+/*
+!.gitignore
+!/src
+!/res
+!AndroidManifest.xml
+*.class
+# Package Files #
+*.jar
+*.war
+*.ear
