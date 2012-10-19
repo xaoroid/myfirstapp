@@ -14,97 +14,98 @@
 	android:layout_width="fill_parent"
 	android:layout_height="97dp"
 	android:orientation="horizontal">
+
 <TextView
-	android:id="@+id/widget80"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="manual" />
+    android:id="@+id/widget80"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/message2" />
+
 </TableRow>
-<TableRow
-	android:id="@+id/widget61"
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	android:orientation="horizontal">
-<DatePicker
-	android:id="@+id/widget73"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content" />
+
 <TableLayout
-	android:id="@+id/widget69"
-	android:layout_width="wrap_content"
-	android:layout_height="fill_parent"
-	android:orientation="vertical"
-	android:layout_gravity="center_vertical">
-<RadioGroup
-	android:id="@+id/widget74"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content">
-<RadioButton
-	android:id="@+id/widget75"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="am" />
-<RadioButton
-	android:id="@+id/widget76"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="pm" />
-</RadioGroup>
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TableRow
+        android:id="@+id/widget81"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/widget42"
+        android:layout_width="468dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/widget43"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/maximum_bp" />
+
+        <EditText
+            android:id="@+id/widget51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textSize="18sp" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/widget56"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mmhg" />
+
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/widget77"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minimum_bp" />
+
+        <EditText
+            android:id="@+id/widget57"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/widget59"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mmhg" />
+
+    </TableRow>
+
 </TableLayout>
-</TableRow>
+
 <TableRow
-	android:id="@+id/widget81"
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	android:orientation="horizontal">
-<TextView
-	android:id="@+id/widget82"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="ketuatu" />
+    android:id="@+id/tableRow1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <Button
+        android:id="@+id/widget55"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/next" />
+
 </TableRow>
-<TableRow
-	android:id="@+id/widget42"
-	android:layout_width="468dp"
-	android:layout_height="wrap_content"
-	android:orientation="horizontal">
-<TextView
-	android:id="@+id/widget43"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="max" />
-<EditText
-	android:id="@+id/widget51"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="EditText"
-	android:textSize="18sp" />
-<TextView
-	android:id="@+id/widget56"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="mmHg" />
-<TextView
-	android:id="@+id/widget77"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="min" />
-<EditText
-	android:id="@+id/widget57"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="EditText"
-	android:textSize="18sp" />
-<TextView
-	android:id="@+id/widget59"
-	android:layout_width="wrap_content"
-	android:layout_height="wrap_content"
-	android:text="mmHg" />
-</TableRow>
-<Button
-	android:id="@+id/widget55"
-	android:layout_width="fill_parent"
-	android:layout_height="wrap_content"
-	android:text="enter" />
+
 </TableLayout>
 </ScrollView>

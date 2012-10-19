@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<string name="max">最高</string>
-<string name="min">最低</string>
-<string name="hg">mmHg</string>
+<string name="maximum_bp">最高</string>
+<string name="minimum_bp">最低</string>
+<string name="mmhg">mmHg</string>
+<string name="app_name">血圧手帳</string>
+<string name="morning">朝</string>
+<string name="evening">晩</string>
+<string name="message2">血圧を記入してください</string>
+<string name="message1">日時を記入してください</string>
+<string name="next">次へ</string>
 </resources>
